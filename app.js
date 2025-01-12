@@ -5,6 +5,13 @@ import bodyParser from "body-parser";
 
 const app = express();
 const port = 3000;
+const db = new pg.Client({
+    user: "postgres",
+    host: "localhost",
+    database: "books",
+    password: "LetsCode27",
+    port: 5432
+});
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));

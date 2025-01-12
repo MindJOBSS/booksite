@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+.main{
+    margin-top: 50px;
+    max-width: 800px;
+    line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.main h1{
+    font-size: 2rem;
+}
+
+.newBook:link{
+    text-decoration: none;
+}
+
+.newBook {
+    font-size: 1.6rem;
+    align-items: center;
+    background-color: #00ADB5;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+.newBook:hover,
+.newBook:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.newBook:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.container{
+    color: #4C585B;
+    margin-top: 1.5rem;
+}
+
+.container .img{
+    width: 160px;
+    height: 160px;
+    background-color: black;
+    float: left;
+    margin-right: 1.3rem;
+}
+
+.container .title{
+    font-size: 1.8rem;
+}
+
+form {
+    clear: left;
+    padding-top: 1.3rem;
+}
+
+button.edit{
+    background-color: #5D8736;
+}
+
+button.delete{
+    background-color: #EB5A3C;
+}
+
+form button {
+    color: aliceblue;
+    width: 80px;
+    height: 40px;
+    border-radius: .25rem;
+    font-size: 1.3rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+form button.edit:hover,
+form button.edit:focus {
+  background-color: #809D3C;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+form button.delete:hover,
+form button.delete:focus {
+  background-color: #DF9755;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+form button:hover {
+  transform: translateY(-1px);
+}
+
+form button.edit:active {
+  background-color: #809D3C;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+form button.delete:active {
+    background-color: #DF9755;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+.container hr{
+    margin-top: 1.3rem;
+}
